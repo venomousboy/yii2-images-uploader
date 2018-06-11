@@ -1,0 +1,36 @@
+{
+    "name": "venomousboy/yii2-images-uploader",
+    "description": "Images uploader via base yii2 model component",
+    "version": "1.0.0",
+    "type": "yii2-extension",
+    "keywords": [
+	"php71",
+        "yii2",
+        "images",
+        "uploader",
+        "extension"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/venomousboy/yii2-images-uploader/issues",
+        "source": "https://github.com/venomousboy/yii2-images-uploader"
+    },
+    "authors": [
+        {
+            "name": "Deykhin Vladislav",
+            "email": "deykhin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "venomousboy\\yii2-images-uploader\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "*"
+    }
+}
